@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-blend-mode: multiply;
+    background-image: url(../image/bg.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-color: rgba(41, 39, 31, 1);
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 70px;
+}
+
+.main__logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    border: 2px solid #ffd700;
+    padding: 10px;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo span {
+    padding-left: 20px;
+}
+
+.logo a:first-child {
+    color: #ffd700;
+}
+
+.info__service {
+    padding-top: 55px;
+}
+
+.info__service ul {
+    display: flex;
+    list-style: none;
+}
+
+.info__service li {
+    color: #fff;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.info__service span {
+    background: #ffd700;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.info {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.info p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.reg__btn, .add__book__btn {
+    text-align: center;
+    background: #ffd700;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    width: 250px;
+    margin: 20px auto;
+}
+
+.reg__btn:hover, .add__book__btn:hover {
+    border: 3px solid #ffd700;
+    color: #ffd700;
+    background: transparent;
+    padding: 12px 32px;
+}
+
+.login__btn {
+    border: 3px solid #ffd700;
+    padding: 15px 35px;
+    border-radius: 3px;
+    color: #ffd700;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    margin: 20px auto;
+}
+
+.login__btn:hover {
+    color: #ffffff;
+    background: #ffd700;
+}
+
+.reg__form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    background: #ffd700;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+.reg__form form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.reg__form form input, .reg__form form textarea, .add__book form select {
+    width: 400px;
+    margin: 0 auto;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.reg__form button {
+    display: block;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #f4c542;
+    border: 1px solid #a87808;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 250px;
+    cursor: pointer;
+    text-align: center;
+}
+.reg__form button:hover {
+    background: #edb42f;
+}
+
+.head__form__title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.reg__form ul {
+    list-style: none;
+    color: red;
+}
+
+.reg__form span {
+    color: red;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.error__form {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+.welcome {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my__books {
+    margin-top: 50px;
+}
+
+.my__books_title {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.quit a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.book {
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ffd700;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.book h3 {
+    font-size: 28px;
+    color: #ffd700;
+}
+
+.book ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.book li {
+    margin-right: 150px;
+}
+
+.book li:last-child{
+    margin-right: 0;
+}
+
+.book li span {
+    color: #ffd700;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.book__description {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.book p {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.book a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ffd700;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+.back__main {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+}
+
+.date__add__book {
+    color: #ffd700;
+    font-size: 18px;
+}
